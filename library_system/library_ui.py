@@ -45,7 +45,7 @@ def display_members():
 
 def end_program():
     messagebox.showinfo("End Program", "Your now closing the program") #make this end the program
-
+    root.destroy() #built in function that closes the program
 
 
 def add_book():
